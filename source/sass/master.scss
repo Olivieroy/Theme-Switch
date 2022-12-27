@@ -8,3 +8,18 @@
 @use 'global' as *;
 @use 'pages';
 
+html{
+    background: #f3f3f3;
+    font-family: 'Inter', sans-serif;
+}   
+
+body{
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.material-icons-round{
+    user-select: none;
+}
+
